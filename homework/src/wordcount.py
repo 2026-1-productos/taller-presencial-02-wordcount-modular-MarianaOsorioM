@@ -9,7 +9,6 @@ from ._internals.write_word_counts import write_word_counts
 
 def main():
     """Main function to orchestrate the word count process."""
-
     if len(sys.argv) != 3:
         print("Usage: python3 -m homework <input_folder> <output_folder>")
         sys.exit(1)
